@@ -1,0 +1,154 @@
+<html>
+
+<link rel="stylesheet" href="MainPg3.css">
+
+<head>
+
+<title> Main Page</title>
+
+</head>
+
+
+</style>
+
+
+<body>
+
+
+<h1>Bookie</h1>
+
+
+
+<a href="register.php" target="main_page" >Register</a>
+
+
+<br><br>
+<h2>Book shop for books lovers!</h2><br><br><br>
+form {
+                width:500px;
+                margin:50px auto;
+}
+
+<a href="M1.html" target="main_page" do</a>
+
+
+
+<div class="fiction">
+
+   <img class="mySlides" src="harrypotter.jpg" >
+   <img class="mySlides" src="indiangirl.jpg">
+   <img class="mySlides" src="faultstar.jpg">
+   <img class="mySlides" src="park.jpg">
+   <img class="mySlides" src="yearimet.jpg" >
+   <img class="mySlides" src="kiterunner.jpg">
+   <h3> Fiction</h3>
+ <a href="m2.html" target="main_page" do</a>
+</div>
+
+
+
+<div  class="suspense">
+   
+   <img class="mySlides1" src="girlontrain.jpg">
+   <img class="mySlides1" src="iftom.jpg">
+   <img class="mySlides1" src="patang.jpg">
+   <img class="mySlides1" src="gonegirl.jpg">
+   <img class="mySlides1" src="reckless.jpg">
+   <img class="mySlides1" src="winner.jpg">
+<h3>Suspense </h3>
+  
+  <a href="m3.html" target="main_page" </a>
+</div>
+
+
+<div  class="children">
+
+  <img class="mySlides2" src="amulet.jpg">
+  <img class="mySlides2" src="cinderella.jpg">
+  <img class="mySlides2" src="matilda.jpg">
+  <img class="mySlides2" src="sunny.jpg">
+  <img class="mySlides2" src="barbie.jpg">
+  <img class="mySlides2" src="rapunzel.jpg">
+<h3>Children </h3>
+<a href="m4.html" target="new-window" </a>
+
+</div>
+
+<div  class="adventure">
+
+  <img class="mySlides3" src="storm.jpg">
+  <img class="mySlides3" src="sub.jpg">
+  <img class="mySlides3" src="lord.jpg">
+   <img class="mySlides3" src="sea.jpg">
+  <img class="mySlides3" src="maze.jpg">
+  <img class="mySlides3" src="hunger.jpg">
+<h3>Adventure </h3>
+
+
+</div>
+<span><img id="gif" src="book.gif"></span>
+
+
+<script>
+var myIndex = 0;
+var myIndex1 =0;
+var myIndex2 =0;
+var myIndex3 =0;
+carousel();
+carousel1();
+carousel2();
+carousel3();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+function carousel1() {
+    var a;
+    var b = document.getElementsByClassName("mySlides1");
+    for (a = 0; a < b.length; a++) {
+       b[a].style.display = "none";  
+    }
+    myIndex1++;
+    if (myIndex1 > b.length) {myIndex1 = 1}    
+    b[myIndex1-1].style.display = "block";  
+    setTimeout(carousel1, 2000); // Change image every 2 seconds
+}
+function carousel2() {
+    var a;
+    var b = document.getElementsByClassName("mySlides2");
+    for (a = 0; a < b.length; a++) {
+       b[a].style.display = "none";  
+    }
+    myIndex2++;
+    if (myIndex2 > b.length) {myIndex2 = 1}    
+    b[myIndex2-1].style.display = "block";  
+    setTimeout(carousel2, 2000); // Change image every 2 seconds
+}
+function carousel3() {
+    var a;
+    var b = document.getElementsByClassName("mySlides3");
+    for (a = 0; a < b.length; a++) {
+       b[a].style.display = "none";  
+    }
+    myIndex3++;
+    if (myIndex3 > b.length) {myIndex3 = 1}    
+    b[myIndex3-1].style.display = "block";  
+    setTimeout(carousel3, 2000); // Change image every 2 seconds
+}
+
+
+
+</script>
+
+</span>
+	
+
+</body>
+</html>
