@@ -1,2 +1,15 @@
 # Book_Store
 Online Book Store using HTML
+
+Computers and Information Technology has a major influence on our society and society has become more and more dependent on technology. We need to change with change in society. In this new era where computers are becoming the need of today, replacing the existing system outdated methods of carrying out jobs, it is only natural that the organizations also turn to computerization that will make them more equipped to take on challenges posed by today’s environment.
+The business-to-consumer aspect of electronic commerce (e-commerce) is the most visible business use of the World Wide Web. The primary goal of an e-commerce site is to sell goods and services online. This project deals with developing an e-commerce website for Online Book Sale. It provides the user with a catalog of different books available for purchase in the store. In order to facilitate online purchase a shopping cart is provided to the user. The system is implemented using a 3-tier approach, with a backend database, a middle tier of Sun J2EE 1.4 application server and JSP, and a web browser as the front end client. In order to develop an e-commerce website, a number of Technologies must be studied and understood. These include multi-tiered architecture, server and client side scripting techniques, implementation technologies such as JSP, programming language (such as JAVA, JavaScript, and HTML), relational databases (such as MySQL, Access). This is a project with the objective to develop a basic website where a consumer is provided with a shopping cart application and also to know about the technologies used to develop such an application. 
+
+Advantages of proposed system-
+•	It provides more efficiency and flexibility:-Bookie online book store is a user friendly website. It is also an efficient site for purchasing books as per the users request.
+•	It utilizes the advantage of E-commerce:- It is using credit card and paypal facility for the payment .The register user of the site can do the payment by either of these method.
+•	It is user friendly:-The website is designed in such a way that every kind of users would get the access to the site and the information can be retrieved in an easy way.
+•	Ease of access of information:-The details about a book in the book store can be viewed accessed by everyone.  A large amount of information about a particular book can be viewed by a single click.
+•	It will reduce the utilization of time:-In the existing system the customer needs to go to the shop and order for the book by searching the whole stock. But by making it online the time for getting a book can be reduced.
+•	24 hours accessibility to the site:-The Bookie online book store is an online site. So it can be access 24 hours.
+•	Reviews:- A great advantage of opening an online bookstore is your readers can leave reviews of your work. If other buyers have seen your book’s praise, they’ll be more likely to purchase it. At a traditional bookstore, customers can’t read reviews of books they’re considering buying.
+
